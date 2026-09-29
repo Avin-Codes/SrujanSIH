@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "steps": {
+    "install": {
+      "commands": [
+        "...",
+        "pip uninstall -y opencv-python opencv-python-headless || true",
+        "pip install --no-cache-dir opencv-python-headless"
+      ]
+    }
+  }
+}
